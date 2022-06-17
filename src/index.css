@@ -1,13 +1,17 @@
-body {
+html,body,.App,#root{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  background:url('./Images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff !important;
+  font-family: 'Open Sans', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* HIDE ARROWS IN INPUT FIELD */
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }

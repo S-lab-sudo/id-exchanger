@@ -1,0 +1,18 @@
+.navigationBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    z-index: 1111;
+}
+.navigationBar>a{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: rgb(1 81 174 / 40%);
+}
+.activatedNav{
+    background-color: rgb(12 255 0 / 40%);
+}

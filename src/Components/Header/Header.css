@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    font-size: 15px;
+    height: 4vh;
+    font-weight: 300;
+    background-color: rgb(225 225 225 /20%);
+    margin-bottom: 5px;
+}
+.header>*{
+    cursor: pointer;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    font-size: 17.5px;
+}

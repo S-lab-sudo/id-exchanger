@@ -1,0 +1,18 @@
+.idLevel,.sellNotice{
+    display: grid;
+    margin-bottom: 5px;
+}
+.idTag>input,.idPassword>input,.emailAddress>input,.diamondsAvailable>input,.sellingPrice>input,.phoneNumber>input,.idLevel>input{
+    width: 90%;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.fileInput{
+    width: 100%;
+}
+.petsImagesUpload,.charactersImagesUpload,.gunsImagesUpload,.emoteImagesUpload{
+    margin-bottom: 7.5px;
+}
